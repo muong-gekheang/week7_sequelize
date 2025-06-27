@@ -5,7 +5,7 @@ const router = express.Router();
 router.get("/attendance", getAttendanceByIdAndDate);
 router.post("/attendance", markAttendanceById);
 
-// these 2 routes is not working, I am trying to dins the problem too but everything seem to be correct.
+// these two routes are not working, I am trying to find the problem, but everything seem to be correct.
 router.get("/classes/:id/attendance", getAttendanceByClassId);
 router.get("/students/:id/attendance", getAttendanceById);
 
